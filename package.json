@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node -r ts-node/register --env-file=.env src/tools/index.ts"
+    "start": "node -r ts-node/register --env-file=.env src/images/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "openai": "^6.29.0",
+    "sharp": "^0.34.5",
     "tiktoken": "^1.0.22"
   }
 }
