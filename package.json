@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node -r ts-node/register --env-file=.env src/images/index.ts"
+    "start": "node -r ts-node/register --env-file=.env src/embeddings/index.ts"
   },
   "keywords": [],
   "author": "",
